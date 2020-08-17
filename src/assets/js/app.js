@@ -39,9 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
 			contactForm.style.display = ''
 		}
 	})
-
-
-
 	contactForm.addEventListener('submit', event  => {
 		event.preventDefault()
 
