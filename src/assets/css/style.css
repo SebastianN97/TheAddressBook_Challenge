@@ -1,8 +1,16 @@
 
 body {
-    background: linear-gradient(45deg, yellow, grey);
+    background: linear-gradient(45deg, black, grey);
+    color: white;
     height: 100vh;
     text-align: center;
 }
+
+button {
+    background-color: ;
+    font-size: larger;
+}
+
+
 
 

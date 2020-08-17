@@ -6,33 +6,44 @@
 
   <head>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./assets/js/myStyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./src/assets/css/style.css">
     <title>Address book</title>
 	
   </head>
 
   <body>
 
-    <h1>Contacts</h1>
-    <button id="add-contact">Add Contact</button>
-        
-    <form id="new-contact-form">
-	  <label for="name">Name</label>        
-	  <input id="name" name="name" type="text">
-    <label for="email">Email</label>
-    <input id="email" name="email" type="email">
-    <label for="phone">Phone</label>
-    <input id="phone" name="phone" type="text">
-    <label for="company">Company</label>
-    <input id="company" name="company" type="text">
-    <label for="notes">Notes</label>
-    <textarea id="notes" name="notes" type="text"></textarea>
-    <label for="twitter">Twitter</label>
-    <input id="twitter" name="twitter" type="text">
-    <input id="submit" type="submit" value="Save contact">
-      
+    <h1 style="font-size: 50px;">The Address Book</h1>
+
+    <img src="https://greatmemories.se/wp-content/uploads/2017/11/contact.png" alt="Contact image" width="650" height="200">
+
+    <h2>Contacts</h2>
+      <button id="add-contact">Add Contact</button>
+            <br><br><br><br>
+      <form id="new-contact-form">
+	    <label for="name">Name</label>        
+      <input id="name" name="name" type="text">
+            <br><br>
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email">
+            <br><br>
+      <label for="phone">Phone</label>
+      <input id="phone" name="phone" type="text">
+            <br><br>
+      <label for="company">Company</label>
+      <input id="company" name="company" type="text">
+            <br><br>
+      <label for="notes">Notes</label>
+      <textarea id="notes" name="notes" type="text"></textarea>
+            <br><br>
+      <label for="twitter">Twitter</label>
+      <input id="twitter" name="twitter" type="text">
+            <br><br>
+      <input id="submit" type="submit" value="Save contact">
+            <br><br><br><br>
+    <p>My contacts</p>
     
     <div id="contact-list"></div>
 	  <script src="./assets/js/app.js"></script>
