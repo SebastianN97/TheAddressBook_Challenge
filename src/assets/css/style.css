@@ -2,15 +2,25 @@
 body {
     background: linear-gradient(45deg, black, grey);
     color: white;
+    font-family: monospace;
     height: 100vh;
     text-align: center;
 }
 
-button {
-    background-color: ;
-    font-size: larger;
+div {
+    text-align: center;
+    text-decoration: underline;
 }
 
+button {
+    padding: 8px 15px;
+    font-size: larger;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
 
-
+#new-contact-form {
+    display: inline-block;
+    font-size: large;
+}
 
